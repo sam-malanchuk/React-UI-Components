@@ -19,8 +19,28 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p> */}
-      <HeaderContainer />
-      <CardContainer />
+      {/* <HeaderContainer />
+      <CardContainer /> */}
+      <div className="headerContainer">
+        <img className="imageThumbnail" src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png" alt="user-profile-img" />
+        <div clasName="headerContent">
+          <p className="usersName">Lambda School <span className="lightText">@LambdaSchool &bull; 26 Jan</span></p>
+          <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. 
+            Once you feel confortable using components you are well on your way to mastering React!</p>
+        </div>
+        <div className="cardContainer">
+          <img className="cardBanner" src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" alt="websiteBanner" />
+          <div className="cardContent">
+            <p className="cardTitle">Get started with React</p>
+            <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
+            <p className="lightText">reactjs.org</p>
+          </div>
+        </div>
+        <div className="footerContainer">
+          
+        </div>
+      </div>
+
     </div>
   );
 };
