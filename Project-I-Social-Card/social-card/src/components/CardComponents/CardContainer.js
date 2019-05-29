@@ -1,10 +1,15 @@
 import React from 'react';
 import './Card.css';
+import CardContent from './CardContent';
+import CardBanner from './CardBanner';
 
-const Card = () => {
+const CardContainer = () => {
     return (
-        <h2>Get started with React</h2>
+        <div className="cardContainer">
+            <CardBanner />
+            <CardContent />
+        </div>
     )
 };
 
-export default Card;
+export default CardContainer;

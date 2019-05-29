@@ -1,1 +1,10 @@
 /* All styles for your header Components live here */
+
+img.imageThumbnail {
+    width: 55px;
+    height: 55px;
+}
+
+.headerContainer {
+    display: flex;
+}
