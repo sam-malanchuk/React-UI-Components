@@ -1,0 +1,19 @@
+.footerContainer {
+    width: 550px;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+}
+
+.footerIcon {
+    font-size: 1.1em;
+    width: 60px;
+    color: #666;
+    padding: 5px;
+}
+
+.footerIcon:hover {
+    background-color: rgba(1, 1, 1, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
