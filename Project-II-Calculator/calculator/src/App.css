@@ -1,0 +1,43 @@
+.calculatorBody {
+    width: 456px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.calcRow .btn {
+    width: 110px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-left: 2px solid #979797;
+    border-bottom: 2px solid #979797;
+    font-size: 3em;
+}
+
+.calcRow .operation {
+    background-color: #a0001e;
+    border-right: 2px solid #979797;
+    color: #fff;
+}
+
+.calcRow .btn-large {
+    width: 334px;
+}
+
+.calcRow {
+    display: flex;
+}
+
+.calcDisplay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 446px;
+    height: 125px;
+    background-color: #222;
+    border: 2px solid #979797;
+    font-size: 5em;
+    color: #fff;
+}
