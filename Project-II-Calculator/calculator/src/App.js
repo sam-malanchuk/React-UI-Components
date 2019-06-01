@@ -5,20 +5,22 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const myButtons = [
-  {buttonStyle: "btn operation", text: "÷"},
-  {buttonStyle: "btn", text: "7"},
-  {buttonStyle: "btn", text: "8"},
-  {buttonStyle: "btn", text: "9"},
-  {buttonStyle: "btn operation", text: "×"},
-  {buttonStyle: "btn", text: "4"},
-  {buttonStyle: "btn", text: "5"},
-  {buttonStyle: "btn", text: "6"},
-  {buttonStyle: "btn operation", text: "−"},
-  {buttonStyle: "btn", text: "1"},
-  {buttonStyle: "btn", text: "2"},
-  {buttonStyle: "btn", text: "3"},
-  {buttonStyle: "btn operation", text: "+"},
+  {name: "NumberButton", buttonStyle: "btn operation", text: "÷"},
+  {name: "NumberButton", buttonStyle: "btn", text: "7"},
+  {name: "NumberButton", buttonStyle: "btn", text: "8"},
+  {name: "NumberButton", buttonStyle: "btn", text: "9"},
+  {name: "NumberButton", buttonStyle: "btn operation", text: "×"},
+  {name: "NumberButton", buttonStyle: "btn", text: "4"},
+  {name: "NumberButton", buttonStyle: "btn", text: "5"},
+  {name: "NumberButton", buttonStyle: "btn", text: "6"},
+  {name: "NumberButton", buttonStyle: "btn operation", text: "−"},
+  {name: "NumberButton", buttonStyle: "btn", text: "1"},
+  {name: "NumberButton", buttonStyle: "btn", text: "2"},
+  {name: "NumberButton", buttonStyle: "btn", text: "3"},
+  {name: "NumberButton", buttonStyle: "btn operation", text: "+"},
 ];
+
+const test = "NumberButton";
 
 const App = () => {
   return (
