@@ -1,49 +1,40 @@
 import React from 'react';
 import './App.css';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className="calculatorBody">
-      {/* <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p> */}
       <div className="calcRow">
-        <div className="calcDisplay">0</div>
+        <CalculatorDisplay />
       </div>
       <div className="calcRow">
-        <div className="btn btn-large">clear</div>
-        <div className="btn operation">&divide;</div>
+        <ActionButton text="clear" />
+        <NumberButton buttonStyle="btn operation" text="&divide;" />
       </div>
       <div className="calcRow">
-        <div className="btn">7</div>
-        <div className="btn">8</div>
-        <div className="btn">9</div>
-        <div className="btn operation">&times;</div>
+        <NumberButton buttonStyle="btn" text="7" />
+        <NumberButton buttonStyle="btn" text="8" />
+        <NumberButton buttonStyle="btn" text="9" />
+        <NumberButton buttonStyle="btn operation" text="&times;" />
       </div>
       <div className="calcRow">
-        <div className="btn">4</div>
-        <div className="btn">5</div>
-        <div className="btn">6</div>
-        <div className="btn operation">&minus;</div>
+      <NumberButton buttonStyle="btn" text="4" />
+        <NumberButton buttonStyle="btn" text="5" />
+        <NumberButton buttonStyle="btn" text="6" />
+        <NumberButton buttonStyle="btn operation" text="&minus;" />
       </div>
       <div className="calcRow">
-        <div className="btn">1</div>
-        <div className="btn">2</div>
-        <div className="btn">3</div>
-        <div className="btn operation">+</div>
+      <NumberButton buttonStyle="btn" text="1" />
+        <NumberButton buttonStyle="btn" text="2" />
+        <NumberButton buttonStyle="btn" text="3" />
+        <NumberButton buttonStyle="btn operation" text="+" />
       </div>
       <div className="calcRow">
-        <div className="btn btn-large">0</div>
-        <div className="btn operation">=</div>
+        <ActionButton text="0" />
+        <NumberButton buttonStyle="btn operation" text="=" />
       </div>
     </div>
   );
