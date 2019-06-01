@@ -6,4 +6,5 @@
 
 .calcRow {
     display: flex;
+    flex-flow: wrap;
 }

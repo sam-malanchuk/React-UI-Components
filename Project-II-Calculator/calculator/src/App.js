@@ -13,26 +13,18 @@ const App = () => {
       <div className="calcRow">
         <ActionButton text="clear" />
         <NumberButton buttonStyle="btn operation" text="&divide;" />
-      </div>
-      <div className="calcRow">
         <NumberButton buttonStyle="btn" text="7" />
         <NumberButton buttonStyle="btn" text="8" />
         <NumberButton buttonStyle="btn" text="9" />
         <NumberButton buttonStyle="btn operation" text="&times;" />
-      </div>
-      <div className="calcRow">
         <NumberButton buttonStyle="btn" text="4" />
         <NumberButton buttonStyle="btn" text="5" />
         <NumberButton buttonStyle="btn" text="6" />
         <NumberButton buttonStyle="btn operation" text="&minus;" />
-      </div>
-      <div className="calcRow">
         <NumberButton buttonStyle="btn" text="1" />
         <NumberButton buttonStyle="btn" text="2" />
         <NumberButton buttonStyle="btn" text="3" />
         <NumberButton buttonStyle="btn operation" text="+" />
-      </div>
-      <div className="calcRow">
         <ActionButton text="0" />
         <NumberButton buttonStyle="btn operation" text="=" />
       </div>
