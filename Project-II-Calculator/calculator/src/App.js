@@ -20,8 +20,6 @@ const myButtons = [
   {name: "NumberButton", buttonStyle: "btn operation", text: "+"},
 ];
 
-const test = "NumberButton";
-
 const App = () => {
   return (
     <div className="calculatorBody">
