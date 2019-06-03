@@ -1,0 +1,10 @@
+.calculatorBody {
+    width: 456px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.calcRow {
+    display: flex;
+    flex-flow: wrap;
+}
